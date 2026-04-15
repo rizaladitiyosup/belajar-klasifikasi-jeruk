@@ -46,7 +46,7 @@ Proyek ini mengimplementasikan model Machine Learning klasifikasi untuk mempredi
 - **Algoritma:** `[Isi — contoh: Random Forest / SVM / KNN]`
 - **Dataset:** `Dataset Kualitas Jeruk buatan sendiri]`
 - **Fitur Input:** Diameter, Berat, Tebal Kulit, Kadar Gula, Asal Daerah, Warna, Musim Panen
-- **Target/Label:** Kualitas Jeruk `[Baik / Sedang / Jelek`
+- **Target/Label:** Kualitas Jeruk `Baik / Sedang / Jelek`
 
 ---
 
