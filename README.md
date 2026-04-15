@@ -44,10 +44,9 @@ Proyek ini mengimplementasikan model Machine Learning klasifikasi untuk mempredi
 ## 🤖 Model Machine Learning
 
 - **Algoritma:** `[Isi — contoh: Random Forest / SVM / KNN]`
-- **Dataset:** `[Isi — contoh: Dataset Kualitas Jeruk buatan sendiri / Kaggle]`
+- **Dataset:** `Dataset Kualitas Jeruk buatan sendiri]`
 - **Fitur Input:** Diameter, Berat, Tebal Kulit, Kadar Gula, Asal Daerah, Warna, Musim Panen
-- **Target/Label:** Kualitas Jeruk `[Isi kelas — contoh: Baik / Cukup / Buruk]`
-- **Akurasi:** `[Isi — contoh: 92.3%]`
+- **Target/Label:** Kualitas Jeruk `[Baik / Sedang / Jelek`
 
 ---
 
@@ -56,11 +55,10 @@ Proyek ini mengimplementasikan model Machine Learning klasifikasi untuk mempredi
 ```
 belajar-klasifikasi-jeruk/
 │
-├── app.py                    # Aplikasi Streamlit (main)
-├── notebook.ipynb            # Jupyter Notebook: EDA & training model
-├── dataset.csv               # Dataset jeruk (raw)
-├── dataset_clean.csv         # Dataset jeruk setelah preprocessing
-├── model.joblib              # Model ML yang sudah dilatih & disimpan
+├── app_streamlit.py                    # Aplikasi Streamlit (main)
+├── belajar_klasifikasi_jeruk.ipynb     # Jupyter Notebook: EDA & training model
+├── jeruk_balance_500.csv               # Dataset jeruk (raw)
+├── model_klasifikasi_jeruk.joblib      # Model ML yang sudah dilatih & disimpan
 └── README.md
 ```
 
@@ -68,38 +66,9 @@ belajar-klasifikasi-jeruk/
 
 ## 📸 Screenshot
 
-![Tampilan Aplikasi](assets/screenshot.png)
+![Tampilan Aplikasi](assets/belajar-klasifikasi-jeruk.png)
 
 > Atau lihat langsung: [belajar-klasifikasi-jeruk-rizal.streamlit.app](https://belajar-klasifikasi-jeruk-rizal.streamlit.app/)
-
----
-
-## 🚀 Cara Menjalankan Secara Lokal
-
-### Prasyarat
-- Python 3.9+
-- pip
-
-### Instalasi
-
-```bash
-# 1. Clone repository ini
-git clone https://github.com/[username]/belajar-klasifikasi-jeruk.git
-cd belajar-klasifikasi-jeruk
-
-# 2. Buat virtual environment (disarankan)
-python -m venv venv
-source venv/bin/activate        # Mac/Linux
-venv\Scripts\activate           # Windows
-
-# 3. Install dependencies
-pip install streamlit scikit-learn pandas numpy joblib
-
-# 4. Jalankan aplikasi
-streamlit run app.py
-```
-
-Aplikasi otomatis terbuka di browser pada `http://localhost:8501`
 
 ---
 
@@ -116,7 +85,7 @@ Aplikasi otomatis terbuka di browser pada `http://localhost:8501`
 
 **Rizal**
 
-- 🔗 GitHub: [@username](https://github.com/username)
+- 🔗 GitHub: [@rizaladitiyosup](https://github.com/rizaladitiyosup)
 - 🌐 Live App: [belajar-klasifikasi-jeruk-rizal.streamlit.app](https://belajar-klasifikasi-jeruk-rizal.streamlit.app/)
 
 ---
